@@ -1,0 +1,22 @@
+{
+  "extends": "astro/tsconfigs/base",
+  "compilerOptions": {
+    "baseUrl": "C:/Users/genarogg/Desktop/dace",
+    "paths": {
+      "@layout": [
+        "src/components/layout/Layout.astro"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@view/*": [
+        "src/components/views/*"
+      ],
+      "@assets/*": [
+        "src/assets/*"
+      ]
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
+  }
+}
